@@ -1,0 +1,26 @@
+Groups:
+  Admin:
+    Permission: nte.admin
+    Prefix: '&c&l[Owner]&f '
+    Suffix: '&f'
+    SortPriority: 1
+  Moderator:
+    Permission: nte.moderator
+    Prefix: '&2&l[Mod]&f '
+    Suffix: '&f'
+    SortPriority: 2
+  Capo:
+    Permission: nte.capo
+    Prefix: '&9&l[Capo]&f '
+    Suffix: ''
+    SortPriority: -1
+  Capo+:
+    Permission: nte.capo+
+    Prefix: '&e&l[Capo+]&f '
+    Suffix: ''
+    SortPriority: -1
+  Capo++:
+    Permission: nte.capo++
+    Prefix: '&6&l[Capo++]&f '
+    Suffix: ''
+    SortPriority: -1
