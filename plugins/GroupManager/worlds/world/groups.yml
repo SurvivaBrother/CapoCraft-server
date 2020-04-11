@@ -23,7 +23,7 @@ groups:
     - g:vanish_moderator
     info:
       build: true
-      prefix: '&5'
+      prefix: '&2&l[Mod]&f '
       suffix: ''
   Owner:
     default: false
@@ -41,7 +41,8 @@ groups:
     default: false
     permissions:
     - nte.capo+
-    inheritance: []
+    inheritance:
+    - default
     info:
       build: false
       prefix: '&e&l[Capo+]&f '
@@ -74,12 +75,21 @@ groups:
       build: false
       prefix: '&9&l[Capo]&f '
       suffix: ''
-  Capo++:
+  Choque:
     default: false
     permissions:
-    - nte.capo++
+    - nte.choque
     inheritance: []
     info:
       build: false
-      prefix: '&6&l[Capo++]&f '
+      prefix: '&6&l[Wachin]&f '
+      suffix: ''
+  Daniel:
+    default: false
+    permissions:
+    - nte.daniel
+    inheritance: []
+    info:
+      build: false
+      prefix: '&4&l[&6&lS&e&la&2&lp&1&le&5&l]&f '
       suffix: ''

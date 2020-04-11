@@ -19,8 +19,14 @@ Groups:
     Prefix: '&e&l[Capo+]&f '
     Suffix: ''
     SortPriority: -1
-  Capo++:
-    Permission: nte.capo++
-    Prefix: '&6&l[Capo++]&f '
+  Choque:
+    Permission: nte.choque
+    Prefix: '&6&l[Wachin]&f '
     Suffix: ''
     SortPriority: -1
+  Daniel:
+    Permission: nte.daniel
+    Prefix: '&4&l[&6&lS&e&la&2&lp&1&le&5&l]&f '
+    Suffix: ''
+    SortPriority: -1
+
