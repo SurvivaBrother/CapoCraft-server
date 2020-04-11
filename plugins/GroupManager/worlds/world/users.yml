@@ -1,14 +1,14 @@
 users:
-  27f07bb2-a866-30d3-84fd-5eadbd7f515b:
-    lastname: KarlitosD
-    group: Owner
-    subgroups: []
-    permissions: []
   ElgarL:
     group: Moderator
     subgroups: []
     permissions:
     - groupmanager.noofflineperms
+  f6cbdcc4-d1dd-3af9-9d78-f15d14ec194c:
+    lastname: cHoQuesit0
+    group: Capo+
+    subgroups: []
+    permissions: []
   KHobbits:
     group: Moderator
     subgroups: []

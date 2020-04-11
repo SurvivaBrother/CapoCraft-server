@@ -1,0 +1,21 @@
+users:
+  27f07bb2-a866-30d3-84fd-5eadbd7f515b:
+    lastname: KarlitosD
+    group: Owner
+    subgroups: []
+    permissions: []
+  ElgarL:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  KHobbits:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  snowleo:
+    group: Builder
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
