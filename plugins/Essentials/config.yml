@@ -30,7 +30,7 @@ ops-name-color: 'none'
 nickname-prefix: '~'
 
 # The maximum length allowed in nicknames. The nickname prefix is included in this.
-max-nick-length: 20
+max-nick-length: 15
 
 # A list of phrases that cannot be used in nicknames. You can include regular expressions here.
 # Users with essentials.nick.blacklist.bypass will be able to bypass this filter.
@@ -164,7 +164,6 @@ disabled-commands:
 # Set - '*' in order to listen on all possible commands.
 socialspy-commands:
   - msg
-  - w
   - r
   - mail
   - m
@@ -175,7 +174,6 @@ socialspy-commands:
   - er
   - reply
   - ereply
-  - email
   - action
   - describe
   - eme
@@ -207,10 +205,6 @@ mute-commands:
 #
 # To enable this feature, please set use-bukkit-permissions to false.
 player-commands:
-  - afk
-  - afk.auto
-  - back
-  - back.ondeath
   - balance
   - balance.others
   - balancetop
@@ -219,10 +213,8 @@ player-commands:
   - chat.format
   - chat.shout
   - chat.question
-  - clearinventory
   - compass
   - depth
-  - delhome
   - getpos
   - geoip.show
   - help
@@ -243,46 +235,13 @@ player-commands:
   - msg.color
   - nick
   - near
-  - pay
   - ping
   - protect
   - r
   - rules
   - realname
   - seen
-  - sell
-  - sethome
-  - setxmpp
-  - signs.create.protection
-  - signs.create.trade
-  - signs.break.protection
-  - signs.break.trade
-  - signs.use.balance
-  - signs.use.buy
-  - signs.use.disposal
-  - signs.use.enchant
-  - signs.use.free
-  - signs.use.gamemode
-  - signs.use.heal
-  - signs.use.info
-  - signs.use.kit
-  - signs.use.mail
-  - signs.use.protection
-  - signs.use.repair
-  - signs.use.sell
-  - signs.use.time
-  - signs.use.trade
-  - signs.use.warp
-  - signs.use.weather
-  - spawn
-  - suicide
-  - time
-  - tpa
-  - tpaccept
-  - tpahere
-  - tpdeny
-  - warp
-  - warp.list
+  - time  
   - world
   - worth
   - xmpp
@@ -390,7 +349,7 @@ remove-god-on-disconnect: false
 # After this timeout in seconds, the user will be set as AFK.
 # This feature requires the player to have essentials.afk.auto node.
 # Set to -1 for no timeout.
-auto-afk: 300
+auto-afk: -1
 
 # Auto-AFK Kick
 # After this timeout in seconds, the user will be kicked from the server.
@@ -428,7 +387,7 @@ sleep-ignores-afk-players: true
 afk-list-name: "none"
 
 # You can disable the death messages of Minecraft here.
-death-messages: true
+death-messages: none
 
 # Should players with permissions be able to join and part silently?
 # You can control this with essentials.silentjoin and essentials.silentquit permissions if it is enabled.

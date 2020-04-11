@@ -1,0 +1,21 @@
+users:
+  ElgarL:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  f6cbdcc4-d1dd-3af9-9d78-f15d14ec194c:
+    lastname: cHoQuesit0
+    group: Capo+
+    subgroups: []
+    permissions: []
+  KHobbits:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  snowleo:
+    group: Builder
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
